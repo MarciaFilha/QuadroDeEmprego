@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutConstraintCadEmpresa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadEmpresa">
+
+    <TextView
+        android:id="@+id/txtNomeEmpresa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lblNomeEmpresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nomeEmpresa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNomeEmpresa"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeEmpresa" />
+
+    <TextView
+        android:id="@+id/txtEmailEmpresa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/lblEmailEmpresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomeEmpresa" />
+
+    <EditText
+        android:id="@+id/emailEmpresa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txtEmailEmpresa"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmailEmpresa" />
+
+    <TextView
+        android:id="@+id/txtTelefoneEmpresa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/lblTelefoneEmpresa"
+        app:layout_constraintEnd_toEndOf="@+id/emailEmpresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEmpresa" />
+
+    <EditText
+        android:id="@+id/telefoneEmpresa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtTelefoneEmpresa"
+        app:layout_constraintTop_toBottomOf="@+id/txtTelefoneEmpresa" />
+
+    <TextView
+        android:id="@+id/txtCnpj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/lblCnpj"
+        app:layout_constraintEnd_toEndOf="@+id/telefoneEmpresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telefoneEmpresa" />
+
+    <EditText
+        android:id="@+id/cnpj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/txtCnpj"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtCnpj"
+        app:layout_constraintTop_toBottomOf="@+id/txtCnpj" />
+
+    <TextView
+        android:id="@+id/txtSenhaEmpresa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lblSenhaEmpresa"
+        app:layout_constraintEnd_toEndOf="@+id/cnpj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cnpj" />
+
+    <EditText
+        android:id="@+id/senhaEmpresa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/txtSenhaEmpresa"
+        app:layout_constraintStart_toStartOf="@+id/txtSenhaEmpresa"
+        app:layout_constraintTop_toBottomOf="@+id/txtSenhaEmpresa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

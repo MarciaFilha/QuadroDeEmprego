@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">QuadroDeEmprego</string>
+    <string name="title_activity_cad_candidato">CadCandidato</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="lblNomeCandidato">Nome</string>
+    <string name="lblEmailCandidato">Email</string>
+    <string name="lblSenha">Senha</string>
+    <string name="lblTelefoneCandidato">Telefone</string>
+    <string name="lblNomeEmpresa">Nome</string>
+    <string name="lblEmailEmpresa">Email</string>
+    <string name="lblTelefoneEmpresa">Telefone</string>
+    <string name="lblCnpj">CNPJ</string>
+    <string name="lblSenhaEmpresa">Senha</string>
+    <string name="titleMenuOk">Ok</string>
+    <string name="titleMenuCancelar">Cancelar</string>
+    <string name="titleMenuOkEmpresa">Ok</string>
+    <string name="titleAviso">Aviso</string>
+    <string name="msg_campos_invalidos_brancos">Há campos invalidos ou em branco!</string>
+    <string name="btn_ok_aviso">Ok</string>
+    <string name="msg_conexao_sucesso">Conexão criada com sucesso!</string>
+    <string name="action_ok">ok</string>
+    <string name="title_erro">Erro</string>
+    <string name="title_activity_cad_vagas">cadVagas</string>
+    <string name="title_activity_login">Login</string>
+    <string name="btnLogin">Login</string>
+    <string name="lblNomeVaga">Nome da Vaga</string>
+    <string name="lblDescricaoVaga">Descrição da Vaga</string>
+    <string name="title_activity_vagas">Vagas</string>
+    <string name="title_menu_ok_cad_vagas">Ok</string>
+</resources>

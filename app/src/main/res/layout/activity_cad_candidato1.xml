@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutConstraintCadCandidato"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadCandidato1">
+
+    <TextView
+        android:id="@+id/txtNomeCandidato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lblNomeCandidato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <EditText
+        android:id="@+id/nomeCandidato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNomeCandidato"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeCandidato" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lblEmailCandidato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomeCandidato" />
+
+    <EditText
+        android:id="@+id/emailCandidato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/txtEmail"
+        app:layout_constraintStart_toStartOf="@+id/txtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+    <TextView
+        android:id="@+id/txtSenhaCandidato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lblSenha"
+        app:layout_constraintEnd_toEndOf="@+id/emailCandidato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailCandidato" />
+
+    <EditText
+        android:id="@+id/senhaCandidato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/txtSenhaCandidato"
+        app:layout_constraintStart_toStartOf="@+id/txtSenhaCandidato"
+        app:layout_constraintTop_toBottomOf="@+id/txtSenhaCandidato" />
+
+    <TextView
+        android:id="@+id/txtTelefoneCandidato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lblTelefoneCandidato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/senhaCandidato" />
+
+    <EditText
+        android:id="@+id/telefoneCandidato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/txtTelefoneCandidato"
+        app:layout_constraintStart_toStartOf="@+id/txtTelefoneCandidato"
+        app:layout_constraintTop_toBottomOf="@+id/txtTelefoneCandidato" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
